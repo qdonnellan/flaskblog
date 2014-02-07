@@ -11,3 +11,4 @@ class FrontPageTests(TestHandler):
         test that the main app route returns a 200 response
         '''
         response = self.app.get('/')
+        self.assertIn('200', response.status)
