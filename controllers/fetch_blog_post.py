@@ -1,5 +1,4 @@
 import os
-import logging
 
 def fetch_blog_post(year, month, day):
     '''
